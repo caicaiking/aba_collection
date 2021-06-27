@@ -3,3 +3,6 @@ target_link_libraries(count_down_latch_test pthread)
 
 add_executable(block_queue_test block_queue_test.cpp)
 target_link_libraries(block_queue_test pthread)
+
+add_executable(bounded_block_queue_test bounded_block_queue_test.cpp)
+target_link_libraries(bounded_block_queue_test pthread)
